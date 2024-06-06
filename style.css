@@ -286,29 +286,88 @@ font-family: sans-serif;
  .icons ion-icon:hover{
   color: hsl(27, 90%, 51%);
  }
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
 
-/* Default styles for all devices */
-body {
-  font-size: 16px;
-}
+  .icon,
+  .menu,
+  .search {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px; /* Adjust spacing as needed */
+  }
 
-/* Styles for screens with a maximum width of 600px */
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
+  ul {
+    padding: 0;
+  }
+
+  ul li {
+    margin-left: 0;
+    margin-top: 10px; /* Adjust spacing as needed */
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .form {
+    position: static; /* Remove absolute positioning */
+    width: 100%;
+    margin-top: 20px; /* Adjust spacing as needed */
   }
 }
 
-/* Styles for screens with a minimum width of 768px */
-@media screen and (min-width: 768px) {
-  body {
-    font-size: 18px;
+/* Media query for larger screens */
+@media screen and (min-width: 769px) {
+  .navbar {
+    flex-direction: row;
+  }
+
+  .icon,
+  .menu,
+  .search {
+    width: auto;
+  }
+
+  ul li {
+    margin-top: 0;
+  }
+
+  .content {
+    width: 1200px;
+    margin: auto;
+  }
+
+  .form {
+    position: absolute;
+    left: 870px;
+    top: 70px;
   }
 }
 
-/* Styles for screens with a minimum width of 1024px */
-@media screen and (min-width: 1024px) {
-  body {
-    font-size: 20px
+/* Additional media query to handle the navigation bar inline behavior */
+@media screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .icon,
+  .menu,
+  .search {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px; /* Adjust spacing as needed */
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  ul li {
+    margin-left: 0;
+    margin-top: 10px; /* Adjust spacing as needed */
   }
 }
