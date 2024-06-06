@@ -22,13 +22,6 @@
   align-items: center;
 }
 
-.icon {
-  height: 30px;
-  width: 200px;
-  align-items: flex-start;
-  display: flex;
-  position: relative;
-}
 
 .logo {
   color: #ff7200;
@@ -173,7 +166,7 @@ margin-top: 10px;
   background: linear-gradient(to top,rgba(0,0,0,0.8
   )50% ,rgba(0,0,0,0.8
   )50%);
-  position: absolute;
+  position: static;
   top:70px;
   left: 870px;
   border-radius: 10px;
