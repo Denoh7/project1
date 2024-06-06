@@ -286,3 +286,29 @@ font-family: sans-serif;
  .icons ion-icon:hover{
   color: hsl(27, 90%, 51%);
  }
+
+/* Default styles for all devices */
+body {
+  font-size: 16px;
+}
+
+/* Styles for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles for screens with a minimum width of 768px */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1024px */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px
+  }
+}
