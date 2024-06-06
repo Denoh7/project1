@@ -290,7 +290,7 @@ font-family: sans-serif;
   .search {
     width: 100%;
     text-align: center;
-    margin-top: 10px; /* Adjust spacing as needed */
+    margin-top: 20px; /* Adjust spacing as needed */
   }
 
   ul {
@@ -299,7 +299,7 @@ font-family: sans-serif;
 
   ul li {
     margin-left: 0;
-    margin-top: 10px; /* Adjust spacing as needed */
+    margin-top: 20px; /* Adjust spacing as needed */
   }
 
   .content {
@@ -361,6 +361,6 @@ font-family: sans-serif;
 
   ul li {
     margin-left: 0;
-    margin-top: 5px; /* Adjust spacing as needed */
+    margin-top: 10px; /* Adjust spacing as needed */
   }
 }
