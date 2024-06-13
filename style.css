@@ -283,3 +283,11 @@ font-family: sans-serif;
  .icons ion-icon:hover{
   color: hsl(27, 90%, 51%);
  }
+
+
+
+
+@media only screen and (min-width:600px;){
+  .menu {
+    width:100%:
+  }
